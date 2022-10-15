@@ -41,7 +41,7 @@ Route::put('/put', function () {
 });
 Route::delete('/delete', function () {
     $array= ["message" => "წარმატებით წაიშალა"];
-    echo json_encode($array);;
+    echo json_encode($array);
 });
 
 
